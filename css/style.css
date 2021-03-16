@@ -1,0 +1,12 @@
+body,h1 {
+    font-family: "Montserrat", sans-serif
+}
+
+.sideb{
+    display:none;
+    padding-top:150px
+}
+
+.sideb-nav{
+    padding:6px 24px;
+}

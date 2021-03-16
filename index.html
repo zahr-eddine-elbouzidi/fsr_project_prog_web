@@ -9,8 +9,42 @@
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <!--link w3.css -->
     <link rel="stylesheet" href="css/w3.css">
+    <!--link style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 </head>
 <body>
-     
+ <!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge sideb"   id="mySidebar">
+    <a href="javascript:void(0)" onclick="close_sidebar()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright sideb-nav">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Accueil</a>
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Coronavirus</a>
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Population</a>
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    </div>
+  </nav>
+  
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px">
+  
+  <!-- Header -->
+  <div class="w3-opacity">
+  <span class="w3-button w3-xxlarge w3-white w3-right" onclick="open_sidebar()"><i class="fa fa-bars"></i></span> 
+  <div class="w3-clear"></div>
+   
+  </div>
+  
+  <!-- End Page Content -->
+  </div>
+  
+  
+
+    <script src="js/script.js"></script>
 </body>
 </html>
