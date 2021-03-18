@@ -6,11 +6,17 @@ Année universitaire : 2020-2022
 Projet de la programmation web - Intégration de la page https://www.worldometers.info/coronavirus/ avec le Framework W3.CSS
 
 # Equipe de travail
-# AHMED-AMINE GUIIDAT  ET  ZAHR-EDDINE  EL BOUZIDI
+
+- AHMED-AMINE GUIIDAT
+- ZAHR-EDDINE  EL BOUZIDI
 
 
 # Technologies 
-# HTML 5.2, CSS 3, Javascript et le Framework W3.CSS
+
+*HTML 5.2
+*CSS 3
+*Javascript
+*Framework W3.CSS
 
 # Description du projet
 
