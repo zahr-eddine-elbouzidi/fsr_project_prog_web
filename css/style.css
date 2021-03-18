@@ -10,3 +10,14 @@ body,h1 {
 .sideb-nav{
     padding:6px 24px;
 }
+
+.w3-center a:link{
+    text-decoration: none;
+}
+
+.w3-center a:hover{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+ 
