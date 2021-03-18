@@ -27,8 +27,20 @@ body,h1 {
 
 .info-card h3{
     font-size: 2em;
+    color: #000;
 }
 
 .info-card h4{
     font-size: 1.5em;
+    color: #000;
+}
+
+.w3-danger {
+    color:#000 !important; 
+    background-color:#fdd9d6 !important;
+}
+
+.w3-success {
+    color:#000 !important; 
+    background-color:#a0fcbf !important;
 }
