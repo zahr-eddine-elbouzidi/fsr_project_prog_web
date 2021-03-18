@@ -13,10 +13,11 @@ Projet de la programmation web - Intégration de la page https://www.worldometer
 
 # Technologies 
 
-*HTML 5.2
-*CSS 3
-*Javascript
-*Framework W3.CSS
+- HTML 5.2
+- CSS 3
+- JavaScript
+- Framework W3.CSS
+ 
 
 # Description du projet
 
