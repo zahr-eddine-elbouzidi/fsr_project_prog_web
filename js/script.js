@@ -8,4 +8,4 @@ function menu_open() {
 function menu_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
+} 
