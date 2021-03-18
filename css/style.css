@@ -11,13 +11,24 @@ body,h1 {
     padding:6px 24px;
 }
 
-.w3-center a:link{
+.w3-text-grey a:link{
     text-decoration: none;
 }
 
-.w3-center a:hover{
+.w3-text-grey a:hover{
     font-size: 1.1em;
     font-weight: bold;
 }
 
+.info-card {
+    min-height:200px;
+}
  
+
+.info-card h3{
+    font-size: 2em;
+}
+
+.info-card h4{
+    font-size: 1.5em;
+}
