@@ -18,7 +18,7 @@
   <!--fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
 </head>
 
 <body class="w3-content" style="max-width:1200px">
@@ -196,6 +196,129 @@
       <!-- end information div-->
     </section>
     
+    <section class="w3-container">
+
+      <h2>Report coronavirus cases</h2>
+      
+      <div class="w3-responsive">
+
+        <table  id="example" class="w3-table w3-striped w3-bordered w3-card-4">
+          <thead>
+          <tr class="w3-light-gray">
+            <th>#</th>
+            <th>Country Others</th>
+            <th>Total Cases</th>
+            <th>New Cases</th>
+            <th>Total Deaths</th>
+            <th>New Deaths</th>
+            <th>Total Recovered</th>
+            <th>Active Cases</th>
+            <th>Serious Critical</th>
+            <th>Tot Cases/1M pop</th>
+            <th>Deaths /1M pop</th>
+            <th>Total Tests</th>
+            <th>Tests /1M pop</th>
+            <th>Population</th>
+    
+          </tr>
+          </thead>
+          <tr>
+            <td>1</td>
+            <td><b class="w3-text-blue"><a href="https://www.worldometers.info/coronavirus/country/us/" target="_blank">USA</a></b></td>
+            <td>31,158,388</td>
+            <td class="w3-orange">+60,800</td>
+            <td>565,063</td>
+            <td class="w3-red">+922</td>
+            <td>23,666,438</td>
+            <td>6,926,887</td>
+            <td>8,740</td>
+            <td>93,724</td>
+            <td>1,700</td>
+            <td>403,159,000</td>
+            <td>1,212,700</td>
+            <td><b class="w3-text-blue">332,447,357</b></td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td><b class="w3-text-blue"><a href="https://www.worldometers.info/coronavirus/country/brazil/" target="_blank">Brazil</a></b></td>
+            <td>12,748,747</td>
+            <td class="w3-orange">+84,689</td>
+            <td>321,515</td>
+            <td class="w3-red">+3,579</td>
+            <td>11,169,937</td>
+            <td>1,257,295</td>
+            <td>8,318</td>
+            <td>59,662</td>
+            <td>1,505</td>
+            <td>28,600,000</td>
+            <td>133,843</td>
+            <td><b class="w3-text-blue">213,683,484</b></td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td><b class="w3-text-blue"><a href="https://www.worldometers.info/coronavirus/country/india/" target="_blank">India</a></b></td>
+            <td>12,220,669</td>
+            <td class="w3-orange">+72,182</td>
+            <td>162,960</td>
+            <td class="w3-red">+458</td>
+            <td>11,472,494</td>
+            <td>585,215</td>
+            <td>8,944</td>
+            <td>8,791</td>
+            <td>117</td>
+            <td>243,672,940</td>
+            <td>175,293</td>
+            <td><b class="w3-text-blue">1,390,086,508</b></td>
+          </tr>
+
+
+          <tr>
+            <td>4</td>
+            <td><b class="w3-text-blue"><a href="https://www.worldometers.info/coronavirus/country/afghanistan/" target="_blank">Afghanistan</a></b></td>
+            <td>56,517</td>
+            <td class="w3-orange">+63</td>
+            <td>2,489</td>
+            <td class="w3-red">+5</td>
+            <td>51,550</td>
+            <td>2,478</td>
+            <td>1,117</td>
+            <td>1,428</td>
+            <td>63</td>
+            <td>348,243</td>
+            <td>8,799</td>
+            <td><b class="w3-text-blue">39,576,135</b></td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td><b class="w3-text-blue"><a href="https://www.worldometers.info/coronavirus/country/albania/" target="_blank">Albania</a></b></td>
+            <td>125,157	</td>
+            <td class="w3-orange">+434</td>
+            <td>2,235</td>
+            <td class="w3-red">+8</td>
+            <td>91,271</td>
+            <td>31,651</td>
+            <td>46</td>
+            <td>43,526</td>
+            <td>777</td>
+            <td>554,522</td>
+            <td>192,847</td>
+            <td><b class="w3-text-blue">2,875,452</b></td>
+          </tr>
+         
+          </table>
+
+
+      </div>
+      
+    </section>
+
+
+
+
+
     
     
 
@@ -203,6 +326,14 @@
   </div>
 
   <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );
+  </script>
+
 </body>
 
 </html>
