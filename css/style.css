@@ -50,10 +50,26 @@ body,h1 {
 }
 
  
+.linear{
+    background: linear-gradient(#fff,#eee);
+}
 
+.total-card{
+    background-color: #2A265F;
+}
 
+.deaths-card{
+    background-color: #ffffff;
+}
 
+.recovred-card{
+    background-color: #024730;
+}
 
+.world-image{
+    background-image: url(../img/bg-map-light.jpg);
+}
+ 
  
 
  
