@@ -56,14 +56,17 @@ body,h1 {
 
 .total-card{
     background-color: #2A265F;
+    border-radius: 6px;
 }
 
 .deaths-card{
     background-color: #ffffff;
+    border-radius: 6px;
 }
 
 .recovred-card{
     background-color: #024730;
+    border-radius: 6px;
 }
 
 .world-image{
